@@ -7,7 +7,7 @@ export type CardProps = {
 }
 
 const Card = ({ name, username, email }: CardProps): React.JSX.Element => {
-  const imgSrc = `https://robohash.org/${username}.png?set=set2&size=200x200`
+  const imgSrc = `https://robohash.org/${username}.png?size=200x200`
   return (
     <>
       <div className="flex w-[250px] flex-col items-center gap-2 rounded-md bg-[#8dddc8] p-6 text-center text-[#000200] transition duration-300 hover:scale-105">
