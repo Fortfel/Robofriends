@@ -6,7 +6,7 @@ type HeaderProps = {
 
 const Header = ({ onSearchChange }: HeaderProps): React.JSX.Element => {
   return (
-    <header className="mt-5 flex flex-col items-center gap-5">
+    <header className="mt-10 flex flex-col items-center gap-7">
       <h1 className="font-sega text-5xl text-[#0ccac4]">ROBOFRIENDS</h1>
       <input
         type="text"

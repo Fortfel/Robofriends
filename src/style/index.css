@@ -16,7 +16,7 @@
   font-style: normal;
   font-weight: normal;
   font-display: swap;
-  src: url("./../data/SEGA.TTF") format("truetype");
+  src: url("./../assets/SEGA.TTF") format("truetype");
 }
 
 @theme {
