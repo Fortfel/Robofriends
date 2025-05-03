@@ -8,6 +8,7 @@ import VitePluginBrowserSync from 'vite-plugin-browser-sync'
 // https://vite.dev/config/
 // eslint-disable-next-line import/no-default-export
 export default defineConfig({
+  base: '/Robofriends/',
   plugins: [
     react(),
     tailwindcss(),
