@@ -1,6 +1,6 @@
-# Basic React TypeScript Bootstrap
+# Robofriends
 
-A modern starter template for React applications with TypeScript, Tailwind CSS, and Vite.
+A modern React application that displays robot friends with search functionality. Built with React, TypeScript, and Tailwind CSS.
 
 ## Features
 
@@ -12,6 +12,13 @@ A modern starter template for React applications with TypeScript, Tailwind CSS, 
 - 💖 [Prettier](https://prettier.io/) - Opinionated code formatter
 - 📚 [TypeDoc](https://typedoc.org/) - Documentation generator for TypeScript
 - 🔄 [SWC](https://swc.rs/) - Super-fast JavaScript/TypeScript compiler
+- ♿ Accessibility features - ARIA attributes for better screen reader support
+
+## Application Overview
+- Fetches user data from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
+- Displays each user as a robot card with an avatar generated from [Robohash](https://robohash.org/)
+- Allows filtering robots by name using the search functionality
+- Provides proper loading states and error handling
 
 ## Getting Started
 
@@ -26,7 +33,7 @@ A modern starter template for React applications with TypeScript, Tailwind CSS, 
 
 ```bash
 git clone <repository-url>
-cd basic-react-ts
+cd Robofriends
 ```
 
 2. Install dependencies
@@ -60,10 +67,11 @@ The application will be available at `http://localhost:5173`
 ## Project Structure
 
 ```
-basic-react-ts/
+Robofriends/
 ├── public/             # Static assets
 ├── src/
 │   ├── assets/         # Project assets (images, fonts, etc.)
+│   ├── components/     # React components
 │   ├── style/          # CSS and styling files
 │   ├── App.tsx         # Main App component
 │   ├── main.tsx        # Application entry point
